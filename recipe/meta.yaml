@@ -14,7 +14,6 @@
 {% set blis_version = "2.0" %}
 {% set mkl_version = "2026.1" %}
 {% set openblas_version = "0.3.34" %}
-# NOTE: aarch64 compatibility tests are skipped in CI; run locally before merging
 {% set nvpl_version = "26.10.*" %}
 # MKL uses the yyyy-portion of CalVer also as the major version indicating API/ABI stability, see
 # https://github.com/conda-forge/intel_repack-feedstock/issues/81
